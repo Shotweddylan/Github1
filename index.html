@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <link href="index.css" rel="stylesheet"> 
 </head>
 <script src="main.js" async></script>
@@ -29,10 +30,10 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="https://github.com/">Lien GitHub</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -79,6 +80,40 @@
 
         Le 4 juin 2018, Satya Nadella, PDG de Microsoft, annonce que son entreprise Microsoft est dans un processus d'acquisition de GitHub pour 7,5 milliards de dollars. </p>
         
+        <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="/photo/Ex1.png" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="/photo/ex2.png" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/photo/ex3.png" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
 
       <h2 id="list-item-2">Fonctionnalités</h2>
         <p>GitHub est centré vers l'aspect social du développement. En plus d'offrir l'hébergement de projets avec Git, 
@@ -100,6 +135,9 @@
                 Dans un discours au siège de Yahoo! le 24 février 2009, les membres de l'équipe GitHub ont annoncé que durant la première année, 
                 le site avait accumulé 46 000 dépôts publics, 
                 dont 17 000 dans le seul mois précédent. À cette époque, environ 6 200 dépôts avaient été « forkés » au moins une fois et 4 600 fusionnés.</p>
+                <div id="scrollUp">
+                  <a href="#top"><img src="/photo/bouton-fleche-vers-le-haut.png" alt="image" height="42 width="42"></a>
+                  </div>
           </div>
             </div>
 </body>
