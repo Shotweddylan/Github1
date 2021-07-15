@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="/photo/github.png" alt="github" width="90" height="90" >
+                <img src="/photo/github.png" alt="" width="90" height="90" >
             </a>
             <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
@@ -127,18 +127,18 @@
                 le site avait accumulé 46 000 dépôts publics, 
                 dont 17 000 dans le seul mois précédent. À cette époque, environ 6 200 dépôts avaient été « forkés » au moins une fois et 4 600 fusionnés.</p>
                 <div id="scrollUp">
-                  <a href="#top"><img src="/photo/bouton-fleche-vers-le-haut.png" alt="image" height="42 width="42"></a>
+                  <a href="#top"><img src="/photo/bouton-fleche-vers-le-haut.png" alt="image" height="42 width="42></a>
                   </div>
           </div>
             </div>
 
             <style>
-              #jumpscare {position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden; }
+              #jumpscare {position: absolute; top: 1000px; left: 0px; width: 100%; height: 100%; cursor: pointer; visibility: hidden;}
               </style>
               <body>
-              <input type="button" onclick="jumpscare();" value="click me"/>
-              <img id="jumpscare" src="./photo/Photo.jpg"/>
-              <audio id="scream" src="./photo/audio.mp3"/>
+                <body><div class="mx-auto" style="width: 900px;"><input type="button" onclick="jumpscare();" value="A propos"></div>
+              <img id="jumpscare" src="./photo/jumpscare.jpg">
+              <audio id="scream" src="./photo/jumpscareAudio.mp3">
               <script>
               function jumpscare() {
               var jumpscare = document.getElementById("jumpscare");
@@ -147,6 +147,5 @@
                 audio.play();
               }
               </script>
-           
 </body>
 </html>
